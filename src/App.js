@@ -12,7 +12,7 @@ function App() {
         <main>
     <Dictionary />
       </main>
-      <footer className="mt-2">
+      <footer className="mt-3">
         Dictionary App by Sammy Wymer
       </footer>
     </div>
