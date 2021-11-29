@@ -13,3 +13,24 @@ border-radius: 4px;
  .App footer{
    text-align: center;
  }
+
+ .App footer strong {
+   color: #e26a2e;
+ }
+
+ .App .footer-name {
+   color: #F33371;
+   font-weight: bold;
+ }
+ .App .footer-name:hover {
+  color: black;
+}
+
+ .App .footer-opensource {
+  color: black;
+  font-weight: bold;
+}
+
+.App .footer-opensource:hover {
+  color: #F33371;
+}
