@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 .App .logo {
 max-width: 200px;
 margin-top: 40px;
@@ -8,5 +6,10 @@ margin-bottom: 40px;
 border-radius: 4px;
 }
  .App h1 {
-   color: darkgray;
+   color: #F33371;
+   text-align: center;
+ }
+
+ .App footer{
+   text-align: center;
  }
