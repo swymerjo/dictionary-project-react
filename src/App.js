@@ -10,9 +10,12 @@ function App() {
   <img src={logo} className="logo img-fluid" alt="logo" />
       </header>
         <main>
-          <h1 className="mb-4">
+          <h1 className="mb-2">
             Dictionary 
             </h1>
+            <h2>
+              What definition do you want to search for?
+            </h2>
     <Dictionary />
       </main>
       <footer className="mt-3">
