@@ -27,7 +27,7 @@ function handleResponse(response){
         <div className="Dictionary mt-3">
         <form onSubmit={search}>
         <input className="mb-3 p-2" type="search" autoFocus={true} placeholder="Search..." onChange={handleWordChange} />
-        <input type="submit" className="submit-button ms-2"/>
+        <input type="submit" className="submit-button ms-2 shadow"/>
         </form>
         <Results results={results}/>
         </div>
