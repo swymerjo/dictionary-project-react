@@ -33,10 +33,13 @@ function handleResponse(response){
     }
     if(loaded){
     return (
-        <div className="Dictionary mt-3">
+        <div className="Dictionary">
         <section>
+        <h3>
+              What word do you want to look up?
+            </h3>
         <form onSubmit={handleSubmit}>
-        <input className="" type="search" autoFocus={true} placeholder="Search..." onChange={handleWordChange} />
+        <input className="" type="search" autoFocus={true} placeholder="Search..." onChange={handleWordChange} defaultValue={props.defaultKeyword} />
         </form>
         <div className="hint">
             suggested words: sunset, yoga, plants, house...

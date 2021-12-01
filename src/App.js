@@ -12,9 +12,6 @@ function App() {
           <h1 className="mb-2">
             Dictionary 
             </h1>
-            <h3>
-              What word do you want to search for?
-            </h3>
     <Dictionary defaultKeyword="rainbow"/>
       </main>
       <footer className="mt-3">
