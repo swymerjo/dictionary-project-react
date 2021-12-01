@@ -1,4 +1,3 @@
-import logo from "./logo-2.svg";
 import './App.css';
 import Dictionary from "./Dictionary";
 
@@ -7,14 +6,14 @@ function App() {
     <div className="App">
          <div className="container">
       <header className="App-header">
-  <img src={logo} className="logo img-fluid shadow" alt="logo" />
+<h3 className="emoji mt-3 mb-1">📚</h3>
       </header>
         <main>
           <h1 className="mb-2">
             Dictionary 
             </h1>
             <h3>
-              What definition do you want to search for?
+              What word do you want to search for?
             </h3>
     <Dictionary defaultKeyword="rainbow"/>
       </main>

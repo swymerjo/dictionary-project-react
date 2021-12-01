@@ -32,6 +32,10 @@ font-family: 'Poppins', sans-serif;
    color: black
  }
 
+ .App .emoji {
+   font-size: 45pt;
+ }
+
  .App .footer-name {
    color: #F33371;
    font-weight: bold;
