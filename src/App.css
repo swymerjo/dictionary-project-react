@@ -28,6 +28,7 @@ display: block;
    text-align: center;
    font-family: 'Poppins', sans-serif;
    color: white;
+   margin-bottom: 30px;
  }
 
  .App footer strong {
