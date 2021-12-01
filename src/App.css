@@ -9,7 +9,7 @@ display: block;
 
 
  .App h1 {
-   color: #F33371;
+   color: white;
    text-align: center;
    font-family: 'Poppins', sans-serif;
    font-size: 28pt;
@@ -27,10 +27,11 @@ display: block;
  .App footer{
    text-align: center;
    font-family: 'Poppins', sans-serif;
+   color: white;
  }
 
  .App footer strong {
-   color: black
+   color: white;
  }
 
  .App .emoji {
@@ -39,7 +40,7 @@ display: block;
  }
 
  .App .footer-name {
-   color: #F33371;
+   color: rgb(21, 222, 248);
    font-weight: bold;
  }
  .App .footer-name:hover {
@@ -47,11 +48,11 @@ display: block;
 }
 
  .App .footer-opensource {
-  color: black;
+  color: rgb(21, 222, 248);
   font-weight: bold;
   font-style: underline;
 }
 
 .App .footer-opensource:hover {
-  color: #F33371;
+  opacity: 0.5;
 }
