@@ -1,11 +1,21 @@
-.Dictionary .submit-button {
-background: #F16720;
-border: 2px solid #e26a2e;
-border-radius: 4px;
-padding: 8px;
-color: white;
+
+.Dictionary input {
+    width: 100%;
+    padding: 6px 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-.Dictionary form {
-    text-align: center;
+
+.Dictionary section {
+    background:white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0, 10%);
+    margin: 20px 0;
+}
+
+.Dictionary .hint{
+    font-size: 11px;
+    margin-top: 5px;
 }

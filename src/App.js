@@ -13,10 +13,10 @@ function App() {
           <h1 className="mb-2">
             Dictionary 
             </h1>
-            <h2>
+            <h3>
               What definition do you want to search for?
-            </h2>
-    <Dictionary />
+            </h3>
+    <Dictionary defaultKeyword="rainbow"/>
       </main>
       <footer className="mt-3">
         <strong>Dictionary App</strong> by <a href="https://twitter.com/SammyWymer" className="footer-name text-decoration-none">Sammy Wymer</a> with <a href="https://github.com/swymerjo/dictionary-project-react" className="footer-opensource">Open-Source Code</a>

@@ -3,17 +3,16 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
-export default function Dictionary(){
-let [word, setWord] = useState("");
+export default function Dictionary(props){
+let [word, setWord] = useState(props.defaultKeyword);
 let [results, setResults] = useState(null);
+let [loaded, setLoaded] =useState(false);
 
 function handleResponse(response){
-    console.log(response.data[0].meanings[0].definitions[0]); //returns defintion of word
     setResults(response.data[0]);
 }
 
-    function search(event){
-        event.preventDefault();
+    function search(){
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
         axios.get(apiUrl).then(handleResponse);
@@ -22,14 +21,32 @@ function handleResponse(response){
     function handleWordChange(event){
         setWord(event.target.value);
     }
-    
+
+    function load(){
+        setLoaded(true);
+        search();
+    }
+
+    function handleSubmit(event){
+        event.preventDefault();
+        search();
+    }
+    if(loaded){
     return (
         <div className="Dictionary mt-3">
-        <form onSubmit={search}>
-        <input className="mb-3 p-2" type="search" autoFocus={true} placeholder="Search..." onChange={handleWordChange} />
-        <input type="submit" className="submit-button ms-2 shadow"/>
+        <section>
+        <form onSubmit={handleSubmit}>
+        <input className="" type="search" autoFocus={true} placeholder="Search..." onChange={handleWordChange} />
         </form>
+        <div className="hint">
+            suggested words: sunset, yoga, plants, house...
+        </div>
+        </section>
         <Results results={results}/>
         </div>
     );
+    } else{
+        load();
+        return "Loading..."
+    }
 }
