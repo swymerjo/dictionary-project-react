@@ -10,9 +10,8 @@
     color: black;
 }
 
-.Phonetics a:hover {
-    background: orangered;
-    color: white;
+.Phonetics .audio-icon:hover {
+    color: orangered;
 }
 
 .Phonetics .text{
