@@ -54,7 +54,7 @@ display: block;
 }
 
  .App .footer-opensource {
-  color: rgb(21, 222, 248);
+  color: white;
   font-weight: bold;
   font-style: underline;
 }
