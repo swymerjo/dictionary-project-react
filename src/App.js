@@ -15,7 +15,7 @@ function App() {
     <Dictionary defaultKeyword="rainbow"/>
       </main>
       <footer className="mt-5">
-        <strong>Dictionary App</strong> by <a href="https://twitter.com/SammyWymer" className="footer-name text-decoration-none">Sammy Wymer</a> with <a href="https://github.com/swymerjo/dictionary-project-react" className="footer-opensource">Open-Source Code on GitHub</a>
+        <strong>Dictionary App</strong> by <a href="https://twitter.com/SammyWymer" className="footer-name text-decoration-none">Sammy Wymer</a> with <a href="https://github.com/swymerjo/dictionary-project-react" className="footer-opensource">open-source code on GitHub</a>
       </footer>
     </div>
     </div>
